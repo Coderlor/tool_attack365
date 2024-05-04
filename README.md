@@ -1,4 +1,4 @@
-Ngoài ra bạn có thể dùng lện trên: đăng nhập vào quyền quản trị của CMD
+Ngoài ra bạn có thể dùng lệnh trên: đăng nhập vào quyền quản trị của CMD
 khởi chạy lệnh sau: cd /d %ProgramFiles(x86)%\Microsoft Office\Office16
 
 B1. for /f %x in ("dir /b ..\root\Licenses16\ProPlus2019VL*.xrm-ms") do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"
